@@ -224,8 +224,8 @@ const LayoutSlug = props => {
 
             {!lock && <div id="article-wrapper" className="px-2">
                 <>
-                    <NotionPage post={post} />
                     <ArticleInfo post={post} />
+                    <NotionPage post={post} />
                     <ShareBar post={post} />
                     <Comment frontMatter={post} />
                     <ArticleFooter />
